@@ -18,7 +18,6 @@ var surnames = ['Bianchi', 'Neri', 'Rossi', 'Verdi', 'Gialli'];
 surname_user = surname_user.charAt(0).toUpperCase() + surname_user.slice(1);
 surnames.push(surname_user);
 surnames.sort();
-console.log(surnames);
 
 var i = 0;
 
